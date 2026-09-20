@@ -28,6 +28,24 @@ int main() {
          << "4. Salir\n";
 
     respuesta = pedirOpcionValida(1, 4);
+    switch (respuesta) {
+    case 1:
+        cout << "Atendiendo pacientes..." << endl;
+        break;
+
+    case 2:
+        cout << "Mostrando departamentos..." << endl;
+        break;
+
+    case 3:
+        cout << "Mostrando historial..." << endl;
+        break;
+
+    case 4:
+        cout << "Saliendo..." << endl;
+        break;
+
+}
 
 
     return 0;
